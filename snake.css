@@ -1,0 +1,60 @@
+/* 2. Put the HTML elements into the right position,color, size etc.   */
+
+
+canvas {
+ background:#9c9;
+ border:10px;
+ border-style: solid;
+ }
+
+ button {
+  border-radius: 10px; 
+  position:relative;
+ }
+
+ #play{ 
+position: relative;
+ }
+
+ #left {
+background:black;
+color: white;
+text-align: center;
+ }
+
+ #right {
+background:black;
+color: white;
+position:relative;
+left: 50px;
+ }
+
+ #up {
+  background:black;
+color: white;
+  margin-top: 50px;
+  position: relative;
+  bottom: 50px;
+  right:40px;
+ }
+
+#down {
+  background:black;
+color: white;
+  margin-bottom: 50px;
+  position:relative;
+  top: 50px;
+  right:85px;
+}
+
+#level {
+  text-align: center;
+  position: relative;
+  bottom:50px;
+  right:15%;
+}
+
+#score {
+  position:relative;
+  bottom: 16px;
+}
